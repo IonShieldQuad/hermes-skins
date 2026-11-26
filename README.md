@@ -17,7 +17,7 @@ kit](https://ionshieldquad.github.io/design-kits/kits/mainframe-access/index.htm
 ```bash
 mkdir -p ~/.hermes/skins
 curl -fsSL -o ~/.hermes/skins/lilythium-mainframe-access.yaml \
-  https://raw.githubusercontent.com/IonShieldQuad/hermes-skins/main/skins/lilythium-mainframe-access.yaml
+  https://raw.githubusercontent.com/IonShieldQuad/hermes-skins/v1.0.0/skins/lilythium-mainframe-access.yaml
 hermes config set display.skin lilythium-mainframe-access
 ```
 
