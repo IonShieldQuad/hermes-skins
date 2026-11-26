@@ -81,7 +81,20 @@ survive restyles. Three findings are baked into the CSS and worth knowing if you
   glow lives in `box-shadow` on the same element only because the clip is a plain rectangle.
   A chamfered plate from one of the other LILYTHIUM places needs its bloom moved to a wrapper.
 
-## Why not in the plugin catalog
+## Also a VS Code colour theme
+
+`vscode/` holds the same palette packaged as a VS Code extension, because Hermes imports VS Code
+colour themes directly: **Settings → Appearance → Browse VS Code marketplace**, search the name,
+install. The importer reads the six workbench keys that carry a palette (background, foreground,
+accent, elevated surface, sidebar, error) and derives the rest.
+
+That import gives you colours, not plates: a VS Code colour theme has no hook for the CSS that
+builds the plates, the hot prompt, or the lit seam. For those, install the skin above.
+
+Publishing the extension needs a Marketplace publisher and a personal access token, so it is
+source plus a packaged `.vsix` here, not a listing yet. Steps are in `vscode/README.md`.
+
+## Why it isn't in the Hermes plugin catalog
 
 Hermes themes travel as skins, not plugins. The catalog at
 `hermes-agent.nousresearch.com/marketplace` lists plugins only, pinned to a reviewed commit,

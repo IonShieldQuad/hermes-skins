@@ -11,3 +11,9 @@ First public build, ported from the mainframe-access design kit (contract v2).
 - Selected chips (clarify letters, primary buttons) get the ground colour as ink: the app
   pairs its pale `ui_primary` with white text, which is unreadable at 13 px.
 - 13 px body base, Chakra Petch plus JetBrains Mono, square corners throughout.
+
+## Unreleased
+
+- `vscode/`: the palette packaged as a VS Code colour theme extension, so it can be found through
+  Hermes' "Browse VS Code marketplace" importer. Packaged and conversion-tested; not published
+  yet (needs a Marketplace publisher and token).

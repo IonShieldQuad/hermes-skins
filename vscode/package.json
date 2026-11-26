@@ -1,0 +1,25 @@
+{
+  "name": "lilythium-mainframe-access",
+  "displayName": "LILYTHIUM Mainframe Access",
+  "description": "Phosphor-green terminal theme. A machine login: black-green ground, #5CF79B accent, one hue, square edges. Imports into Hermes Desktop as a colour theme.",
+  "version": "1.0.0",
+  "publisher": "ionshieldquad",
+  "license": "MIT",
+  "engines": { "vscode": "^1.60.0" },
+  "categories": ["Themes"],
+  "keywords": ["theme", "dark", "green", "terminal", "phosphor", "hermes", "lilythium", "mainframe"],
+  "galleryBanner": { "color": "#020704", "theme": "dark" },
+  "contributes": {
+    "themes": [
+      {
+        "label": "LILYTHIUM Mainframe Access",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mainframe-access-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IonShieldQuad/hermes-skins.git"
+  }
+}
