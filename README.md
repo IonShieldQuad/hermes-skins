@@ -91,8 +91,9 @@ accent, elevated surface, sidebar, error) and derives the rest.
 That import gives you colours, not plates: a VS Code colour theme has no hook for the CSS that
 builds the plates, the hot prompt, or the lit seam. For those, install the skin above.
 
-Publishing the extension needs a Marketplace publisher and a personal access token, so it is
-source plus a packaged `.vsix` here, not a listing yet. Steps are in `vscode/README.md`.
+Publishing the extension needs a Marketplace publisher and a personal access token, so what is
+here is the source, packaged in one command (`npx @vscode/vsce package`), not a listing yet.
+Steps are in `vscode/README.md`.
 
 ## Why it isn't in the Hermes plugin catalog
 
